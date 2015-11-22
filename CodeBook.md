@@ -17,7 +17,7 @@ The function performs the following data transformations on the source data.
 
 
 ## Output Data
-The following data elements are returned. 
+The following data elements are returned, grouped by activity and subject. 
 
 * activity - Activity name.
 * subject - Subject.
