@@ -1,12 +1,12 @@
-# run_analysis() codebook
+## run_analysis() codebook
 This is the codebook for the run_analysis() function defined in run_analysis.R in this repository.
 
-# Source Dataset
+## Source Dataset
 The data used for analysis was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Data Transformation
+## Data Transformation
 The function performs the following data transformations on the source data.
 
 1. Merges the training and the test sets to create one data set.
@@ -16,7 +16,7 @@ The function performs the following data transformations on the source data.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-# Output Data
+## Output Data
 The following data elements are returned. 
 
 activity - Activity name.
@@ -88,7 +88,7 @@ fBodyBodyGyroMag-std() - Mean of fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean() - Mean of fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std() - Mean of fBodyBodyGyroJerkMag-std()
 
-# Usage
+## Usage
 ```
 # returns the tidy dataset named tidyds 
 tidyds <- run_analysis()
